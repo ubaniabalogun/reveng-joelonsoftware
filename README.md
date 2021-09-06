@@ -12,8 +12,16 @@ Outcome Goals:
 Non Goals:
 
 - Getting the styling exactly the same. Near enough reproduction of layout
-- Getting all the content in place
+- Including all site content
 - Following Best practices and perfect implementations on the first pass. Since I'm currently learning, attempting to do so will add more overhead to my journey
+
+Pages / Features to implement:
+
+- [ ] /index page
+- [ ] /archives
+- [ ] /about-me
+- [ ] /YYYY/mm/dd/[id] pages
+- [ ]
 
 ## Getting Started
 

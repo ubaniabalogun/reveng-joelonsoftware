@@ -3,6 +3,23 @@ import styles from "@/components/layout/layout.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
+function SidebarImage() {
+  return (
+    <div>
+      <Link href="/about-me">
+        <a>
+          <Image
+            src="/images/sidebar-profile.png"
+            height={451}
+            width={228}
+            alt="Joel Spolsky Profile"
+          ></Image>
+        </a>
+      </Link>
+    </div>
+  );
+}
+
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className={styles.container}>
@@ -13,18 +30,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           </Link>
         </header>
         <h2>YOUR HOST</h2>
-        <div>
-          <Link href="/about-me">
-            <a>
-              <Image
-                src="/images/sidebar-profile.png"
-                height={451}
-                width={228}
-                alt="Joel Spolsky Profile"
-              ></Image>
-            </a>
-          </Link>
-        </div>
+        <SidebarImage />
         <p>
           I’m Joel Spolsky, a software developer in New York City.{" "}
           <Link href="/about-me">

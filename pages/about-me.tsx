@@ -1,13 +1,12 @@
 import type { NextPage } from "next";
-import Head from "next/head";
 import Layout from "@/components/layout/layout";
 
-const Home: NextPage = () => {
+const About: NextPage = () => {
   return (
     <Layout>
-      <div>Article body goes here</div>
+      <div>About me content goes here</div>
     </Layout>
   );
 };
 
-export default Home;
+export default About;

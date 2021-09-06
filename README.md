@@ -1,4 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Reverse Engineering the Joel on Software UI
+
+**WORK IN PROGRESS**
+
+A reverse-engineered implementation of the [Joel On Software](joelonsoftware.com) UI in Nextjs. Created as a learning exercise
+
+Outcome Goals:
+
+- Implement the layout of the the key pages: Home page, about page, article pages
+- Learn the basics of React & Nextjs to build an actual production grade website
+
+Non Goals:
+
+- Getting the styling exactly the same. Near enough reproduction of layout
+- Getting all the content in place
+- Following Best practices and perfect implementations on the first pass. Since I'm currently learning, attempting to do so will add more overhead to my journey
 
 ## Getting Started
 
